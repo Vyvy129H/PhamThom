@@ -1,5 +1,5 @@
 
-body,html {
+body {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -20,6 +20,18 @@ body,html {
             margin-bottom: 5px;
             color: black;
         }
+  #left ul {
+            list-style-type: none;
+            padding: 0%;
+        }
+
+        #left li {
+            border-bottom: 1px solid lightgray;
+        }
+ #left a {
+            color: black;
+            text-decoration: NONE;
+ }
 
         #content {
             width: 60%;
@@ -30,17 +42,10 @@ body,html {
             margin-right: 5px;
             margin-bottom: 5px;
         }
-
-        #left ul {
-            list-style-type: none;
-            padding: 0%;
+      #content img {
+            width: 100%;
         }
-
-        #left li {
-            border-bottom: 1px solid lightgray;
-            
-        }
-
+        
         #right {
             width: 18%;
             min-height: 345px;
@@ -61,15 +66,10 @@ body,html {
             text-align: center;
         }
 
-        #content img {
-            width: 100%;
-        }
-        #left a {
-            color: black;
-            text-decoration: NONE;
-        }
-        @media only screen and (min-width:500px) {
-    /* For desktop: */
+
+      
+@media only screen and (min-width:500px) {
+    
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -86,12 +86,10 @@ body,html {
     #footer {
         width: 100%;
     }
-    /* .phan3{
-        width: 100%;
-    } */
+   
 }
 @media only screen and ( min-width:800px) {
-    /* For desktop: */
+    
     .col-1 {width: 8.33%;}
     .col-2 {width: 23%;}
     .col-3 {width: 25%;}
@@ -106,7 +104,7 @@ body,html {
     .col-12 {width: 100%;}
 }
 @media only screen and (max-width: 500px) {
-    /* For tablets: */
+    
     .col-m-1 {width: 8.33%;}
     .col-m-2 {width: 16.66%;}
     .col-m-3 {width: 100%;}
